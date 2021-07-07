@@ -1,0 +1,37 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.out-box {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    background: #77cf23;
+}
+.inner-box {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background: #ccc;
+}
+#button {
+    width: 150px;
+    height: 40px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background: blue;
+    margin: 30px 0 10px;
+    outline: none;
+}
+#quote-area {
+    width: 200px;
+}
