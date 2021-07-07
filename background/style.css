@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.outer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #ddd;
+    margin-top: 50px;
+}
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin: 20px;
+    background: #f4f4f4;
+    height: 400px;
+}
+
+.button {
+    border: 1px solid green;
+    color: black;
+    padding: 5px 10px;
+    outline: none;
+}
