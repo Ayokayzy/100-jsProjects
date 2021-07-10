@@ -1,0 +1,62 @@
+body {
+    background-image: url(./A1UwKH-rgCL._SL1500_.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.box {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./A1UwKH-rgCL._SL1500_.jpg);
+    width: 400px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 15px 20px black;
+}
+.header {
+    font-size: 40px;
+    padding-top: 30px;
+}
+#count {
+    font-size: 150px;
+    color: green;
+}
+.count-div {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lower-count {
+    width: 180px;
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    background: blueviolet;
+    border-radius: 10px;
+    border: 0;  
+    box-shadow: 0px 5px 20px black;
+    outline: none;
+}
+#add-count {
+    width: 140px;
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    background: blueviolet;
+    border-radius: 10px;
+    border: 0;  
+    box-shadow: 0px 5px 20px black;
+    outline: none;
+}
