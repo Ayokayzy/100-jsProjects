@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="calculator">
+            <div class="head-section">
+                <div class="fmt-sec">DEG</div>
+                <div class="input-sec"><input type="text"></div>
+                <div class="answer-sec"></div>
+            </div>
+            <div class="body-section">
+                <div class="num-sec">
+                    <button class="btn" data-num="7">7</button>
+                    <button class="btn" data-num="8">8</button>
+                    <button class="btn" data-num="9">9</button>
+                    <button class="btn" data-num="4">4</button>
+                    <button class="btn" data-num="5">5</button>
+                    <button class="btn" data-num="6">6</button>
+                    <button class="btn" data-num="1">1</button>
+                    <button class="btn" data-num="2">2</button>
+                    <button class="btn" data-num="3">3</button>
+                    <button class="btn" data-num=".">.</button>
+                    <button class="btn" data-num="0">0</button>
+                    <button class="btn" data-num="" onclick="ans()">=</button>
+                </div>
+                <div class="operator-sec">
+                    <button class="btn btn-1" data-num="" onclick="del()">del</button>
+                    <button class="btn btn-1" data-num="/">÷</button>
+                    <button class="btn btn-1" data-num="*">x</button>
+                    <button class="btn btn-1" data-num="-"> -</button>
+                    <button class="btn btn-1" data-num="+">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
